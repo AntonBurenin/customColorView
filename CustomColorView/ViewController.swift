@@ -35,20 +35,12 @@ class ViewController: UIViewController {
         blueLabel.text = String(format: "%.2f", blueSlider.value)
         
         customView.layer.cornerRadius = 10
-        customView.backgroundColor = UIColor(displayP3Red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        customView.backgroundColor = getColor()
     }
 
     @IBAction func redSliderChanged() {
         redLabel.text = String(format: "%.2f", redSlider.value)
-        customView.backgroundColor = getColor()
-    }
-    
-    @IBAction func greenSliderChanged() {
         greenLabel.text = String(format: "%.2f", greenSlider.value)
-        customView.backgroundColor = getColor()
-    }
-    
-    @IBAction func blueSliderChanged() {
         blueLabel.text = String(format: "%.2f", blueSlider.value)
         customView.backgroundColor = getColor()
     }

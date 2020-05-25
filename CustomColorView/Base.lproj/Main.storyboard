@@ -86,13 +86,13 @@
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dkN-uW-SpM">
                                         <rect key="frame" x="-2" y="50" width="258" height="31"/>
                                         <connections>
-                                            <action selector="greenSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="ROO-7Y-DN9"/>
+                                            <action selector="redSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="IED-XK-pBt"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FKS-aD-4H3">
                                         <rect key="frame" x="-2" y="100" width="258" height="31"/>
                                         <connections>
-                                            <action selector="blueSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="FTs-Eu-5JY"/>
+                                            <action selector="redSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="7Iq-KF-R29"/>
                                         </connections>
                                     </slider>
                                 </subviews>
